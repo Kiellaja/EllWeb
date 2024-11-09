@@ -1,0 +1,383 @@
+*, html, body {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+.body{
+    overflow-x: hidden;
+}
+
+.fcontainer{
+    width: auto;
+    height: 2000px;
+    background-color: white;
+    
+}
+
+.nama-web{
+    display: flex;
+    gap:5px;
+    padding-left: 40px;
+    border: 3px;
+    border-color: black;
+}
+
+.logo-nama{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 30px;
+    padding-left: 720px;
+    
+}
+
+.navigation > li {
+  list-style-type: none;
+  padding: 15px;
+  border-radius:100px;
+
+}
+
+
+.navigation>li>a:hover {
+    color: crimson;
+    transition: all .6s ease-in-out;
+}
+
+.navigation > li > a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    
+}
+
+
+.button-login{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+.content{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: white; 
+    gap: 160px;  
+}
+
+.text-isi{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin-left:30px;
+    margin-top: 50px;
+}
+
+.button-berlangganan{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+.img-content{
+    width: 400px;
+    height: 400px;
+
+}
+
+.sponsor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-s{
+    width: 80px;
+
+}
+
+.material{
+    height: 500px;
+    width: 100%;
+    
+}
+.judul-materi{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    gap:10px
+
+}
+
+.judulnya{
+    background-color: greenyellow;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-box{
+    
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.container-box{
+    width: 330px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 10px;
+    border: 3px solid;
+    border-radius: 30px;
+    background-color: white;
+    padding-left: 50px;
+    gap: 10px;
+}
+
+.container-box-2{
+    width: 330px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 10px;
+    border: 3px solid;
+    border-radius: 30px;
+    background-color: black;
+    padding-left: 50px;
+    gap: 10px;
+}
+
+.container-materi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.container-materi-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    
+}
+
+.materi-judul{
+    margin-bottom: 40px;
+    background-color: greenyellow;
+
+}
+
+.materi-judul-2{
+    margin-bottom: 40px;
+    background-color: white;
+    color: black;
+
+}
+
+.button-materi{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.button-materi-2{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    color: black;
+}
+
+
+.img-materi{
+    width: 150px;
+    height: 150px;
+}
+
+.deskrip{
+    width: 1100px;
+    height: 300px;
+    margin-left: 80px;
+    border-radius: 40px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(206, 206, 206);
+}
+
+.img-deskrip{
+    width: 300px;
+    height: 300px;
+}
+
+.judul-deskrip{
+    margin-bottom: 50px;
+}
+
+.container-full-case{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    padding-left: 30px;
+    
+   
+    
+}
+
+.judul-case{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+    
+
+}
+
+.h2-case{
+    background-color: greenyellow;
+}
+
+
+.container-case{
+    width: 1190px;
+    height: 300px;
+    background-color: rgb(16, 16, 16);
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    
+    
+
+}
+
+.box-case{
+    width: 350px;
+    height: 150px; 
+    margin:px;
+    gap: 20px;
+    padding-left: 10px;
+    box-shadow: 3px 0 white;
+}
+
+.box-case1{
+    width: 340px;
+    height: 150px; 
+    margin:px;
+    gap: 20px;
+    padding-left: 10px;
+    
+}
+
+.buttonn{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    gap: 10px;
+    
+}
+
+.button-case{
+    background-color: rgba(6, 5, 5, 0.299);
+    color: greenyellow;
+    border: none;
+}
+.img-arrow{
+    width: 30px;
+    height: 30px;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+.full-footer{
+ width: auto;
+ height: 300px;
+ background-color: black;
+ color: white;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    gap: 110px;
+    display: flex;
+    
+}
+
+.judul-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-footer{
+    width: 30px;
+    height: 30px;
+}
+
+.img-footer1{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.deskrip-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
